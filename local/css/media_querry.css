@@ -1,0 +1,210 @@
+/* big tablets to 1200px (widths smaller than 1140px row)*/
+
+
+@media only screen and (max-width: 1031px){
+
+}
+
+
+@media only screen and (max-height: 630px){
+
+}
+
+/* small tablets to big ipads 767-1023 px*/
+@media only screen and (max-width: 866px){
+    .arrownav{  left: 90%;}
+    .main-nav ul{
+        display: block;
+        padding: top:10px;
+        float: left;
+    }
+
+}
+
+/* small phones to small tablets 481-765 px*/
+@media only screen and (max-width: 829px){
+    .main-nav{display: none;}
+    .reorder{
+        display: block;
+    }
+    .main-nav ul{
+        display: block;
+        width: 150px;
+        margin-right: 400px;
+          
+    }
+    
+    .main-nav ul li{
+        padding-top: 10px;
+    }
+    body,html{
+        font-weight: 200;
+    }
+    .contactus h4{
+       font-size: 20px; 
+    }
+    .section2 h3, .features h3, .contactus h3,.news h3,.talk-tous h3{
+        font-size: 20px;
+    }
+    .contactus p{
+        line-height: 1.5;
+        font-size: 18px;
+    }
+   .section2 p{
+    text-align: center;
+    line-height: 1.4;
+    font-size: 19px;
+    margin-bottom: 40px;
+} 
+}
+
+/* small phones 0-480 px*/
+@media only screen and (max-width: 791px){
+    .contactus p{
+        line-height: 1.6;
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 819px){
+        header h2{
+        font-size: 25px;
+        font-weight: 350;
+    }
+   header .hcotact1 ,header .hcotact2{
+        padding:7px 25px;
+    }
+  header .arrowfront{left:94%;}
+    .slidedots{
+       left: 40%; 
+    }
+    
+    header h1{
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    .main-nav ul{
+       margin-top: -40px
+    }
+    .talk-tous h3:after{
+         margin-top: 15px;
+      }
+    .form{
+        margin:30px 50px;
+    }
+    .arrowfront{
+        left: 95%;
+    }
+}
+@media only screen and (max-width: 637px){
+  
+
+}
+
+@media only screen and (max-width: 565px){
+    header h2{
+        font-size: 25px;
+        font-weight: 350;
+    }
+   header .hcotact1 ,header .hcotact2{
+        padding:7px 25px;
+    }
+  header .arrowfront{left:94%;}
+    .slidedots{
+       left: 35%; 
+    }
+    .main-nav ul{
+        padding-top: 45px;
+        margin-right: 100px;
+        
+    }
+
+}
+@media only screen and (max-width: 519px){
+    
+     .arrownav{  left: 87%;}
+    .reorder{
+        margin-right: 0px;
+    }
+   header .arrowfront{
+        left:80%;
+       margin-left:-10px;
+    }
+    .footer ul li a{
+        font-size: 13px;
+    }
+    .footer ul li{
+        margin-bottom: 0px;
+        padding: 5px;
+        display: inline-block;
+        
+    }
+    .talk-tous .form{
+        margin: 10px;
+    }
+    .about{
+        margin: 10px
+    }
+    .about h3{margin: 0px;}
+    .about h3:after{
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    .features, .fcontent{
+        margin: 10px;
+    }
+    .features h4{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .features p{
+        font-size: 15px;
+        line-height: 1.4;
+    }
+    a,p,.section2 p{font-size: 15px;}
+  header  .hcotact1,header .hcotact2{
+        padding: 3px 5px;
+    }
+
+    .main-nav{
+        margin-top: -5px;
+    }
+    header h2{
+        font-size:25px;
+        font-weight: 350;
+    }
+    table{
+        margin: 0px;
+    }
+    header .arrowfront{left:94%;}
+    .slidedots{
+       left: 32%; 
+    }
+    header h1{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 410px){
+     .arrownav{  left: 83%;}
+
+}
+
+
+/*----------Small Height---------------------*/
+
+@media only screen and (max-height: 470px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
